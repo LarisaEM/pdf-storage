@@ -1,0 +1,22 @@
+First Activity and Last Activity columns are calculated as described below:
+
+First Activity – Min Time (Available   Busy   DoNotDisturb   InACall   InAConferenceCall    InAMeeting   Presenting UrgentInterruptionsOnly) per day
+Last Activity – Max Time (   Away   BeRightBack   Inactive   Offline   OffWork   OutOfOffice   PresenceUnknown) per day
+On Call Duration and Idle duration columns are aggregated and calculated as described below:
+
+On call duration – SUM duration (InACall, InAConferenceCall, InAMeeting, Presenting)
+Idle duration – SUM duration (Away, BeRightBack)
+OPT In reflects Total time an agent was in a queue as OPT IN: true
+
+Call Handling
+This section displays statistics around calls using speedometers charts (Answered calls, Avg queue time in seconds, Avg talk time in seconds), tiles (Total calls, Answered, Missed, Voicemail, etc) and area charts (Calls, Avg Queue Time per call type Answered vs missed).
+
+Tiles from this section support KPIs in the same way as the ones from Agents section.
+AA Details Page
+The Auto Attendant details page allow user to check data for available Auto Attendants on different time intervals.
+Steps to View AA data:
+1. Go to AA Details page
+2. Select an Auto Attendant
+3. Select a date range
+
+Data is retrieved for the select Auto Attendan
